@@ -1,0 +1,11 @@
+Desafio AULA 02 
+
+Empresa de telecom
+Clientes de varios serviços Diferentes como INTERNET  e TELEFONE
+
+O problema: Analisando o historico dos clientes dos ultimos anos voce percebe que a empresa esta com churn de >26%  ou seja cancelaramentos.
+
+Perdas de milhoes para a empresa.
+
+O que a empresa precisa fazer para resolver isso?
+
