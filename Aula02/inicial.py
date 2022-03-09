@@ -37,10 +37,14 @@ print(tabela["Churn"].value_counts(normalize=True).map("{:.1%}".format)) # Ativo
 # Usando o plotly para exibir nossa informações
 # Passar informações que ira alimentar o eixo= x e eixo= y
 # No histograma o eixo=y ja sera a quantidade sem necessidade de alimenta-lo
+"""
 for coluna in tabela.columns:  # Laço para cada coluna criar um histogram
     grafico = px.histogram(tabela, x=coluna, color="Churn")
     grafico.show()
-''
+"""
+
+grafico = px.histogram(tabela, x="Churn", color="Churn")
+grafico.show()
 # Com o grafico gerado conseguimos entender que os 10 primeiros meses são cruciais para o cliente cancelas os serviços
 #
 
